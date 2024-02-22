@@ -1,0 +1,17 @@
+.nav-bar {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#option-bar {
+  display: flex;
+  gap: 20px;
+}
+
+#option-bar > button {
+  color: white;
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-size: 20px;
+}

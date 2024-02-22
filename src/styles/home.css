@@ -1,0 +1,41 @@
+.video-container {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.video-container video {
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  width: 100%;
+  z-index: -100;
+}
+
+.wrapper-div {
+  color: white;
+  font-family: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+#socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  margin-right: 30px;
+}
+
+#home-main-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#developer-name {
+  font-size: 2.4rem;
+}

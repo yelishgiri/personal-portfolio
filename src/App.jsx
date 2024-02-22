@@ -1,22 +1,15 @@
 import { useState } from "react";
 
 import About from "./components/About.jsx";
-import Navbar from "./components/Navbar.jsx";
+
 import Projects from "./components/Projects.jsx";
 import Skills from "./components/Skills.jsx";
 import Contact from "./components/Contact.jsx";
+import Home from "./components/Home.jsx";
 import "./App.css";
 
 function App() {
-  return (
-    <main>
-      <Navbar />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-    </main>
-  );
+  return <Home />;
 }
 
 export default App;
