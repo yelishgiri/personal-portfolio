@@ -15,3 +15,7 @@
   border: 1px solid transparent;
   font-size: 20px;
 }
+
+.main-logo > img {
+  border-radius: 100%;
+}

@@ -6,7 +6,7 @@ export default function Navbar() {
     <>
       <div className="nav-bar">
         <div className="main-logo">
-          <img src="../src/assets/hikigaya.png" width="50px" height="50px" />
+          <img src="../src/assets/kaneki.png" width="60px" height="60px" />
         </div>
         <div id="option-bar">
           <button>About</button>

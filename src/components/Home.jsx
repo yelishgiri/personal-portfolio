@@ -3,6 +3,7 @@ import Navbar from "./Navbar.jsx";
 import clip from "../assets/clip-original.mp4";
 import "../styles/home.css";
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
+import { MdOutlineNewspaper } from "react-icons/md";
 import { IconContext } from "react-icons";
 
 export default function Home() {
@@ -36,6 +37,9 @@ export default function Home() {
               </a>
               <a href="https://linkedin.com/in/rabindra-giri-05125b242">
                 <IoLogoLinkedin />
+              </a>
+              <a href="#blog">
+                <MdOutlineNewspaper />
               </a>
             </IconContext.Provider>
           </div>
