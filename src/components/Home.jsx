@@ -2,6 +2,8 @@ import { Typewriter } from "react-simple-typewriter";
 import Navbar from "./Navbar.jsx";
 import clip from "../assets/clip-original.mp4";
 import "../styles/home.css";
+import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
+import { IconContext } from "react-icons";
 
 export default function Home() {
   return (
@@ -14,30 +16,28 @@ export default function Home() {
           <Navbar />
           <div id="home-main-body">
             <div id="developer-name">Yelish Giri</div>
-            <Typewriter
-              words={[
-                "I am a Front End Developer",
-                "I am a Back End Developer",
-                "I am a Full Stack Developer",
-              ]}
-              loop={0}
-              cursor={true}
-            />
-          </div>
-          <div id="socials">
-            <div>
-              <img src="../src/assets/github.svg" width="40px" height="40px" />
-            </div>
-            <div>
-              <img
-                src="../src/assets/linkedin.svg"
-                width="40px"
-                height="40px"
+            <div id="developer-moving-text">
+              I am a
+              <Typewriter
+                words={[
+                  " Front End Developer ",
+                  " Back End Developer ",
+                  " Full Stack Developer ",
+                ]}
+                loop={0}
+                cursor={true}
               />
             </div>
-            <div>
-              <img src="../src/assets/post.svg" width="40px" height="40px" />
-            </div>
+          </div>
+          <div id="socials">
+            <IconContext.Provider value={{ size: "4em" }}>
+              <a href="https://github.com/yelishgiri">
+                <IoLogoGithub />
+              </a>
+              <a href="https://linkedin.com/in/rabindra-giri-05125b242">
+                <IoLogoLinkedin />
+              </a>
+            </IconContext.Provider>
           </div>
         </div>
       </div>

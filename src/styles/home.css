@@ -26,7 +26,8 @@
   flex-direction: column;
   justify-content: end;
   align-items: end;
-  margin-right: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 #home-main-body {
@@ -37,5 +38,25 @@
 }
 
 #developer-name {
-  font-size: 2.4rem;
+  font-size: 4rem;
+}
+
+a > #socials {
+}
+
+#socials {
+  display: flex;
+  gap: 10px;
+}
+
+:hover a {
+  cursor: pointer;
+}
+
+#developer-moving-text {
+  font-size: 2.3rem;
+}
+
+a {
+  color: white;
 }

@@ -9,6 +9,8 @@ import Home from "./components/Home.jsx";
 import "./App.css";
 
 function App() {
+  const [switchComponents, setSwitchComponents] = useState(0);
+
   return <Home />;
 }
 
