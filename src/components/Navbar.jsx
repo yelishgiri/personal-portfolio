@@ -6,11 +6,10 @@ export default function Navbar() {
     <>
       <div className="nav-bar">
         <div className="main-logo">
-          <img src="../src/assets/kaneki.png" width="60px" height="60px" />
+          <img src="../src/assets/asta.jpg" width="60px" height="60px" />
         </div>
         <div id="option-bar">
           <button>About</button>
-          <button>Resume</button>
           <button>Portfolio</button>
           <button>Blog</button>
           <button>Contact</button>
