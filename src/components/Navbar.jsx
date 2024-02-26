@@ -1,5 +1,5 @@
 import "../styles/navbar.css";
-
+import { useState } from "react";
 export default function Navbar() {
   function onClickBtn() {}
   return (

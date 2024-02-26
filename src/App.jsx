@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import About from "./components/About.jsx";
 
 import Portfolio from "./components/Portfolio.jsx";
@@ -9,8 +7,6 @@ import Home from "./components/Home.jsx";
 import "./App.css";
 
 function App() {
-  const [switchComponents, setSwitchComponents] = useState(0);
-
   return <About />;
 }
 
